@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Index = ({ quizData }) => {
+const Content = ({ quizData }) => {
   const [flippedCards, setFlippedCards] = useState({});
   const [selectedAnswers, setSelectedAnswers] = useState({});
 
@@ -143,4 +143,4 @@ const Index = ({ quizData }) => {
   );
 };
 
-export default Index;
+export default Content;

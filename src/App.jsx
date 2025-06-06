@@ -1,6 +1,6 @@
 import "./App.css";
 import Nav from "./Components/Nav/Nav";
-import Index from "./Components/Pages";
+import Content from "./Components/Pages/Content.jsx";
 import useQuiz from "./Hooks/UseQuiz";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Nav onGenerate={fetchQuizData} />
-      <Index quizData={quizData} />
+      <Content quizData={quizData} />
     </>
   );
 }

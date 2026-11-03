@@ -2,7 +2,7 @@
 
 Juego de preguntas en español con dos modos: **dev** (HTML, CSS, JavaScript, TypeScript, accesibilidad, Git y web, con fragmentos de código) y **cultura general** (geografía, historia, ciencia, arte, cine y música, deportes).
 
-Proyecto de portfolio de [Iván Terol](https://ivanterol.com), hecho con SvelteKit y Svelte 5.
+Proyecto de portfolio de [Iván Terol](https://ivanterol.com), hecho con SvelteKit y Svelte 5. **Demo:** https://quizcardgame.netlify.app
 
 ## Qué incluye
 
@@ -23,6 +23,7 @@ npm install
 npm run dev        # http://localhost:5240
 npm run check      # tipos y Svelte
 npm run test:e2e   # Playwright sobre el build de producción (escritorio y móvil)
+BASE_URL=https://quizcardgame.netlify.app npx playwright test   # los mismos tests contra la web publicada
 ```
 
 La web es estática (`adapter-static`) y se despliega en Netlify con `netlify.toml`.

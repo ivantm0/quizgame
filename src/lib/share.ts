@@ -4,7 +4,7 @@ import { formatNumber, shortDate } from './time';
 
 const SQUARES = { ok: '🟩', ko: '🟥', time: '⬛' } as const;
 
-export const SITE_URL = 'https://quesabes-quiz.netlify.app';
+export const SITE_URL = 'https://quizcardgame.netlify.app';
 
 /** Texto para compartir el resultado, con una fila de cuadrados por pregunta */
 export function shareText(g: GameRecord) {
